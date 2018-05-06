@@ -3,7 +3,7 @@ def reverse_each_word(wordString)
   words.map do |word|
     word.reverse!
   end
-  ' '.joing(words)
+  words.join(' ')
 end
 
 str1 = "hello how are you"
