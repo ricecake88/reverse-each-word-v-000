@@ -1,10 +1,8 @@
 def reverse_each_word(wordString)
   words = wordString.split
-  words.map do |word|
+  words.collect do |word|
     word.reverse!
   end
   words.join(' ')
 end
 
-str1 = "hello how are you"
-reverse_each_word(str1)
