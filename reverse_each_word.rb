@@ -1,6 +1,6 @@
 def reverse_each_word(wordString)
   words = wordString.split
-  words.map each do |word|
+  words.map do |word|
     word.reverse
   end
   put words
